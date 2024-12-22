@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import logo from "../../assets/logo.png"
 import "./script.js"
 import "./header.css"
-import { FiMenu } from "react-icons/fi";
-import { RxCross1 } from "react-icons/rx";
+// import { FiMenu } from "react-icons/fi";
+// import { RxCross1 } from "react-icons/rx";
 
 
 
