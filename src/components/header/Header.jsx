@@ -40,6 +40,7 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
+                    
 
                     <div className="w-20%">
                     <a className='lg:py-[15px] lg:px-[42px]  lg:bg-[#6A4DF4] lg:font-semibold font-normal lg:text-[20px] text-[15px] text-white rounded-[10px] opacity-0 lg:opacity-100' href="#">Contact</a>
