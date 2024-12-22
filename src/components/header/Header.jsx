@@ -22,7 +22,7 @@ const Header = () => {
                         <img src={logo} alt="" />
                     </div>
                     <div className="w-[60%] flex items-center flex-col lg:flex-row lg:static">
-                        <ul className={`duration-[1s] ease-in-out lg:flex lg-item-center lg:mx-auto w-[60%] inline-block pb-[100vh] ${show == true ? "bg-gray-700 lg:bg-transparent lg:bg-opacity-0 lg:static absolute lg:right-0 right-[0] top-0" : "bg-transparent md:bg-transparent lg:bg-transparent lg:bg-opacity-0 lg:static absolute top-0 right-[-1000px] lg:py-[20px]"}`}>
+                        <ul className={`duration-[1s] ease-in-out lg:flex lg-item-center lg:mx-auto w-[60%] inline-block pb-[100vh] ${show == true ? "bg-gray-700 lg:bg-transparent lg:bg-opacity-0 lg:static absolute lg:right-0 md:right-0 md:top-0 right-[0] top-0" : "bg-transparent md:bg-transparent lg:bg-transparent lg:bg-opacity-0 lg:static absolute top-0 right-[-1000px] lg:py-[20px]"}`}>
                             <li className='py-2 border-b-[1px] lg:border-b-0'>
                                 <a className='text-[#4756DF] font-semibold text-[18px] px-4' href="#">Home</a>
                             </li>
