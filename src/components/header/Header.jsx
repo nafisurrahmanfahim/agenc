@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../../assets/logo.png"
-import "../../script.js"
+import "./script.js"
 import "./header.css"
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
@@ -48,7 +48,7 @@ const Header = () => {
                         <a className='py-[15px] px-[42px] bg-[#6A4DF4] font-semibold text-[20px] text-white rounded-[10px]' href="#">Contact</a>
                     </div> */}
                     <div className="lg:hidden text-[#fff] z-10" onClick={() => setShow(!show)}>
-                        {show == true ? <RxCross1 className='cursor-pointer' /> : <FiMenu className='cursor-pointer'/>}
+                        {show == true ? <RxCross1/> : <FiMenu/>}
                     </div>
                 </div>
             </div>
